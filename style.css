@@ -1,0 +1,41 @@
+.header {
+	display: flex;
+	align-items: center;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+}
+.search-bar {
+	flex-grow: 1;
+}
+.food-options{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.picture {
+	width: 400px;
+	height: 500px;
+	overflow: hidden;
+}
+img {
+	width: 100%
+}
+
+.recipe {
+	display: flex;
+	background-color: #f5f5f1;
+	width: 70%;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.list {
+	padding: 20px 20px
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 50px
+}
